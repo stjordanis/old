@@ -5,7 +5,7 @@ position: 1
 category: "Getting Started"
 version: 1.4
 fullscreen: false
-menuTitle: "Intro"
+menuTitle: "Introduction"
 ---
 
 Hello hello
