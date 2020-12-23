@@ -2,15 +2,15 @@
   {
     "name": "releases___en",
     "path": "/releases",
-    "component": "C:\\\\Users\\\\Arlat\\\\Programming\\\\DocsDatatorch\\\\node_modules\\\\@nuxt\\\\content-theme-docs\\\\src\\\\pages\\\\releases.vue",
+    "component": "C:\\\\Users\\\\Arlat\\\\Programming\\\\DocsDatatorch2\\\\node_modules\\\\@nuxt\\\\content-theme-docs\\\\src\\\\pages\\\\releases.vue",
     "chunkName": "pages/releases",
-    "_name": "_6bb15c7f"
+    "_name": "_573ab3e2"
   },
   {
     "name": "slug___en",
     "path": "/:slug?",
-    "component": "C:\\\\Users\\\\Arlat\\\\Programming\\\\DocsDatatorch\\\\node_modules\\\\@nuxt\\\\content-theme-docs\\\\src\\\\pages\\\\_slug.vue",
+    "component": "C:\\\\Users\\\\Arlat\\\\Programming\\\\DocsDatatorch2\\\\node_modules\\\\@nuxt\\\\content-theme-docs\\\\src\\\\pages\\\\_slug.vue",
     "chunkName": "pages/_slug",
-    "_name": "_03242867"
+    "_name": "_9b7c6e52"
   }
 ]

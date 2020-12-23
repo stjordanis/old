@@ -1,14 +1,11 @@
 ---
 title: "Projects"
 description: "Create your projects"
-position: 1
+position: 3
 category: "Getting Started"
-version: 1.4
-fullscreen: false
-menuTitle: "Projects"
 ---
 
-<CenteredImage src="intro.png" width="42%" />
+<img src="intro.png" width="42%" class="center" />
 
 Projects are the top level of a machine-learning project. It contains datasets,
 storage providers, annotations and workspaces. These subsections are describe in
@@ -93,7 +90,7 @@ A task is assigned to a label which contains files for the labeler to annotate.
 
 #### Task File Status Flow
 
-<Figure 
+<Figure
   src="/figures/projects/task-status-flow.png"
   width="100%"
   max-width="600px"

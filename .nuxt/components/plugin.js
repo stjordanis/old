@@ -11,6 +11,11 @@ const globalComponents = {
   AppPrevNext: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\app\\AppPrevNext.vue' /* webpackChunkName: "components_global/app/AppPrevNext" */).then(c => c.default || c),
   AppSearch: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\app\\AppSearch.vue' /* webpackChunkName: "components_global/app/AppSearch" */).then(c => c.default || c),
   AppToc: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\app\\AppToc.vue' /* webpackChunkName: "components_global/app/AppToc" */).then(c => c.default || c),
+  Alert: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\base\\Alert.vue' /* webpackChunkName: "components_global/base/Alert" */).then(c => c.default || c),
+  CodeBlock: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\base\\CodeBlock.vue' /* webpackChunkName: "components_global/base/CodeBlock" */).then(c => c.default || c),
+  CodeGroup: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\base\\CodeGroup.vue' /* webpackChunkName: "components_global/base/CodeGroup" */).then(c => c.default || c),
+  CodeSandbox: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\base\\CodeSandbox.vue' /* webpackChunkName: "components_global/base/CodeSandbox" */).then(c => c.default || c),
+  List: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\base\\List.vue' /* webpackChunkName: "components_global/base/List" */).then(c => c.default || c),
   ExampleMultiselect: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\examples\\ExampleMultiselect.vue' /* webpackChunkName: "components_global/examples/ExampleMultiselect" */).then(c => c.default || c),
   BuiltWithNuxtDark: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\icons\\BuiltWithNuxtDark.vue' /* webpackChunkName: "components_global/icons/BuiltWithNuxtDark" */).then(c => c.default || c),
   BuiltWithNuxtLight: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\icons\\BuiltWithNuxtLight.vue' /* webpackChunkName: "components_global/icons/BuiltWithNuxtLight" */).then(c => c.default || c),
@@ -30,12 +35,7 @@ const globalComponents = {
   IconSun: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\icons\\IconSun.vue' /* webpackChunkName: "components_global/icons/IconSun" */).then(c => c.default || c),
   IconTranslate: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\icons\\IconTranslate.vue' /* webpackChunkName: "components_global/icons/IconTranslate" */).then(c => c.default || c),
   IconTwitter: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\icons\\IconTwitter.vue' /* webpackChunkName: "components_global/icons/IconTwitter" */).then(c => c.default || c),
-  IconX: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\icons\\IconX.vue' /* webpackChunkName: "components_global/icons/IconX" */).then(c => c.default || c),
-  Alert: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\base\\Alert.vue' /* webpackChunkName: "components_global/base/Alert" */).then(c => c.default || c),
-  CodeBlock: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\base\\CodeBlock.vue' /* webpackChunkName: "components_global/base/CodeBlock" */).then(c => c.default || c),
-  CodeGroup: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\base\\CodeGroup.vue' /* webpackChunkName: "components_global/base/CodeGroup" */).then(c => c.default || c),
-  CodeSandbox: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\base\\CodeSandbox.vue' /* webpackChunkName: "components_global/base/CodeSandbox" */).then(c => c.default || c),
-  List: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\base\\List.vue' /* webpackChunkName: "components_global/base/List" */).then(c => c.default || c)
+  IconX: () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\components\\global\\icons\\IconX.vue' /* webpackChunkName: "components_global/icons/IconX" */).then(c => c.default || c)
 }
 
 for (const name in globalComponents) {

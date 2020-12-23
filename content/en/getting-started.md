@@ -3,12 +3,9 @@ title: "Getting Started"
 description: "Get started quickly!"
 position: 2
 category: "Getting Started"
-version: 1.4
-fullscreen: false
-menuTitle: "Getting Started"
 ---
 
-<CenteredImage src="rocket.png" width="40%" />
+<img src="/rocket.png" />
 
 In this section we will quickly get you up and annotating data. We will look at
 creating projects, uploading data, annotating data and finally exporting data.
@@ -26,27 +23,23 @@ plus icon ( **+** ) found on the navigation bar. During the creation process of
 a project you can customize some of the options. Further customization can be
 done in the settings panel of the project.
 
-<Figure 
-  src="/figures/getting-started/create-project.png"
-  width="100%"
-  max-width="450px"
-  caption="Initial form for creating a project"
-/>
+<figure>
+  <img src="/figures/getting-started/create-project.png" max-width="450px">
+  <figcaption>Initial form for creating a project</figcaption>
+</figure>
 
 Once you have created your project you will be redirected to the home page. You
-can expand the sidebar by clicking the double caret icon ( **»** ) at the bottom to view
-the title of each tab.
+can expand the sidebar by clicking the double caret icon ( **»** ) at the bottom
+to view the title of each tab.
 
 ### Sharing your Project
 
 You can add users to your project using the Memebers tab.
 
-<Figure 
-  src="/figures/getting-started/invite-members.png"
-  width="100%"
-  max-width="320px"
-  caption="Form used to invite members to a project"
-/>
+<figure>
+  <img src="/figures/getting-started/invite-members.png" max-width="320px">
+  <figcaption>Form used to invite members to a project</figcaption>
+</figure>
 
 Default classes are created for each of your projects. If you would like to
 learn more about creating custom roles, checkout [User

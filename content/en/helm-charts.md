@@ -1,14 +1,11 @@
 ---
 title: "Helm Charts"
 description: "Setup your helm charts for enterprise"
-position: 1
+position: 3
 category: "Enterprise"
-version: 1.4
-fullscreen: false
-menuTitle: "Helm Charts"
 ---
 
-<CenteredImage src="/helm.png" width="25%" />
+<img src="/helm.png" width="25%" />
 
 DataTorch uses Helm 3 when deploying to a Kubernetes cluster. This provided a
 simple package manager to handle all of the required services and pods along
@@ -21,24 +18,30 @@ If you would like more information about the DataTorch Helm Charts checkout the
 ## Installing Chart
 
 1. Add DataTorch repository to Helm
+
    ```bash
    helm repo add datatorch https://charts.datatorch.io
    ```
+
 2. Use `scripts/kub-redcred.sh` to create the secret required to pull the docker
    images. You must have the `gcrpull.json` located in the same directory.
 3. Create a copy of the `datatorch/values.yaml` and update the FQDN, database
    connection and licencing information.
 4. Deploy an instance using `helm install`
+
    ```bash
    helm install my-release datatorch/datatorch -f values.yaml
    ```
+
    This will create a release with the name `my-release`.
 
-::: warning
+<alert>
+
 It not recommend to run a PostgreSQL database in your Kubernetes
 cluster as the additional levels of abstract may be difficult for debugging
 performance metrics.
-:::
+
+</alert>
 
 ## Uninstall
 
@@ -51,11 +54,11 @@ helm delete my-release
 The command will remove all Kubernetes components associated with the chart and
 deletes the release.
 
-::: warning
+<alert>
 Helm does not remove PVC or PV from you cluster when running the uninstall
 command. This is to protect your data from accidental deletion. These will
 need to removed manually.
-:::
+</alert>
 
 ## SSL with NGINX and Cert-Manager
 
@@ -67,17 +70,22 @@ ingress.
    repository](https://github.com/datatorch/helm-charts) to access the scripts
    required.
 2. Install cert-manager
+
    ```bash
    sh ssl/install-certmanager.sh
    ```
+
 3. Create the issuers in kubernetes
+
    ```bash
    kubectl apply -f ssl/issuer-prod.yaml
    kubectl apply -f ssl/issuer-staging.yaml
    ```
+
 4. Add the annotations and TLS to the ingress found in the `values.yaml`.
    Replace `HOST_DOMAIN` with the domain where the instance will be accessible
    (e.g annotator.example.com).
+
    ```yaml
    ingress:
      host: HOST_DOMAIN
@@ -90,6 +98,7 @@ ingress.
          hosts:
            - HOST_DOMAIN
    ```
+
 5. Install or upgrade your instance using Helm
 
 ## Azure AKS
@@ -136,8 +145,6 @@ to significantly reduce connection delay.
 You can add the volumes and containers suggested to the `backend` section of the
 `values.yaml`.
 
-::: details Show values.yaml example
-
 ```yaml
 backend:
   # ... other config options
@@ -172,5 +179,3 @@ backend:
         # This must match the name of your secret above
         secretName: azure-pgbouncer-config
 ```
-
-:::

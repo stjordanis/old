@@ -3,9 +3,6 @@ title: "Monitoring"
 description: "Collaborate, create, and connect in an all-in-one data processing suite!"
 position: 1
 category: "Enterprise"
-version: 1.4
-fullscreen: false
-menuTitle: "Monitoring"
 ---
 
 In this section we will look at the tools built into DataTorch for monitoring
