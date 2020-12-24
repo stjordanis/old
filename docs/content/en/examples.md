@@ -1,8 +1,8 @@
 ---
 title: Examples
 description: Example projects, walkthroughs, and tutorials.
-position: 3
-category: ""
+position: 4
+category: ''
 ---
 
 ## Getting Started
