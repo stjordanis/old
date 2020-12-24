@@ -1,8 +1,8 @@
 ---
-title: "Docker Compose"
-description: "Quickly deploy your instances without having to manage kubernetes"
-position: 2
-category: "Enterprise"
+title: Docker Compose
+description: Quickly deploy your instances without having to manage kubernetes
+position: 1000
+category: enterprise
 ---
 
 <CenteredImage src="octopus.png" width="42%" />

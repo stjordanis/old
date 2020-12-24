@@ -1,8 +1,8 @@
 ---
-title: "Exports"
+title: Exports
 description: "Export your annotations"
-position: 4
-category: "Getting Started"
+position: 104
+category: annotator
 ---
 
 <CenteredImage src="exports.png" width="40%" />

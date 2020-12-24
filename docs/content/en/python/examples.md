@@ -11,7 +11,7 @@ A access tokens can be created in the [user
 settings](https://datatorch.io/settings/access-tokens).
 
 ```bash
-$ datatorch login
+datatorch login
 ```
 
 ```python

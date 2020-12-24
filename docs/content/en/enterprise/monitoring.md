@@ -1,8 +1,8 @@
 ---
-title: "Monitoring"
-description: "Collaborate, create, and connect in an all-in-one data processing suite!"
-position: 1
-category: "Enterprise"
+title: Monitoring
+description: Collaborate, create, and connect in an all-in-one data processing suite!
+position: 1002
+category: enterprise
 ---
 
 In this section we will look at the tools built into DataTorch for monitoring

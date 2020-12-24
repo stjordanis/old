@@ -1,3 +1,4 @@
 node_modules
 yarn.lock
 static/sw.js
+.nuxt

@@ -1,8 +1,8 @@
 ---
-title: "Projects"
+title: Datasets
 description: "Create your projects"
-position: 3
-category: "Getting Started"
+position: 103
+category: annotator
 ---
 
 <img src="intro.png" width="42%" class="center" />

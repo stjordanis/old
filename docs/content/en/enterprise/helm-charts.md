@@ -1,8 +1,8 @@
 ---
-title: "Helm Charts"
+title: Helm Charts
 description: "Setup your helm charts for enterprise"
-position: 3
-category: "Enterprise"
+position: 1001
+category: enterprise
 ---
 
 <img src="/helm.png" width="25%" />
