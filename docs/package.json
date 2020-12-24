@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@nuxt/content-theme-docs": "^0.8.2",
+    "@nuxtjs/sitemap": "^2.4.0",
     "nuxt": "^2.14.0"
   },
   "homepage": "https://github.com/datatorch/datatorch#readme"
