@@ -1,0 +1,23 @@
+[
+  {
+    "name": "releases___en",
+    "path": "/releases",
+    "component": "/home/desktop/Git/datatorch/docs/node_modules/@nuxt/content-theme-docs/src/pages/releases.vue",
+    "chunkName": "pages/releases",
+    "_name": "_9daab556"
+  },
+  {
+    "name": "index___en",
+    "path": "/",
+    "component": "/home/desktop/Git/datatorch/docs/node_modules/@nuxt/content-theme-docs/src/pages/_.vue",
+    "chunkName": "pages/_",
+    "_name": "_0fa4d926"
+  },
+  {
+    "name": "all___en",
+    "path": "/*",
+    "component": "/home/desktop/Git/datatorch/docs/node_modules/@nuxt/content-theme-docs/src/pages/_.vue",
+    "chunkName": "pages/_",
+    "_name": "_0fa4d926"
+  }
+]

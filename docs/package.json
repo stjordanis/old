@@ -1,0 +1,26 @@
+{
+  "name": "@datatorch/docs",
+  "version": "1.0.0",
+  "description": "Nuxt content version of Datatorch docs",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datatorch/datatorch.git"
+  },
+  "author": "DataTorch (support@datatorch.io)",
+  "bugs": {
+    "url": "https://github.com/datatorch/datatorch/issues"
+  },
+  "dependencies": {
+    "@nuxt/content-theme-docs": "^0.8.2",
+    "nuxt": "^2.14.0"
+  },
+  "homepage": "https://github.com/datatorch/datatorch#readme"
+}

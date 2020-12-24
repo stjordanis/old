@@ -1,0 +1,11 @@
+{
+  "name": "@datatorch/docs",
+  "short_name": "@datatorch/docs",
+  "description": "Nuxt content version of Datatorch docs",
+  "icons": [],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00CD81",
+  "lang": "en"
+}
