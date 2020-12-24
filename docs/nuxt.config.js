@@ -9,12 +9,21 @@ const createSitemapRoutes = async () => {
   return files.filter(f => !ignore.includes(f.path)).map(file => file.to)
 }
 
-export default theme({
-  docs: { primaryColor: '#eb4b1a' },
-  modules: ['@nuxtjs/sitemap'],
-  sitemap: {
-    hostname: 'https://docs.datatorch.io',
-    gzip: true,
-    routes: createSitemapRoutes
+export default {
+  ...theme({
+    docs: { primaryColor: '#eb4b1a' },
+    modules: ['@nuxtjs/sitemap'],
+    sitemap: {
+      hostname: 'https://docs.datatorch.io',
+      gzip: true,
+      routes: createSitemapRoutes
+    }
+  }),
+  googleFonts: {
+    families: {
+      Ubuntu: true,
+      // 'DM+Sans': true,
+      'DM+Mono': true
+    }
   }
-})
+}

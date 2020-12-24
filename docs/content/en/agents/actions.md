@@ -5,6 +5,8 @@ position: 501
 category: agents
 ---
 
+<!-- <HeaderCard /> -->
+
 Actions are individual tasks that you can combine to create jobs and customize
 your pipelines. You can create your own actions, or use and customize actions shared
 by the DataTorch community.

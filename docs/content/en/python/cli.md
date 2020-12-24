@@ -2,7 +2,7 @@
 title: Command-line Interface
 description: Setup your python client through the command line
 category: Python
-position: 300
+position: 301
 ---
 
 Login, create and upload files through the command line interface
