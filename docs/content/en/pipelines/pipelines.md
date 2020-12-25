@@ -2,7 +2,7 @@
 title: Pipelines
 description: Describing the actions to send to external agents.
 position: 502
-category: agents
+category: pipelines
 ---
 
 Pipelines are custom automated processes that you can set up in your project to
@@ -129,7 +129,7 @@ Object properties:
 Using action `string`:
 
 ```yaml
-name: "Action Example"
+name: 'Action Example'
 jobs:
   add:
     steps:
@@ -140,7 +140,7 @@ jobs:
 Using action `object`:
 
 ```yaml
-name: "Action Example"
+name: 'Action Example'
 jobs:
   add:
     steps:

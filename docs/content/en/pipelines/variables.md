@@ -2,7 +2,7 @@
 title: Variables
 description: Description of available variables for agents.
 position: 503
-category: agents
+category: pipelines
 ---
 
 You can use expressions to programmatically set variables in workflow files and

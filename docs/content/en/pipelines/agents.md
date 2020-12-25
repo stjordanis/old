@@ -1,18 +1,9 @@
 ---
 title: Agents
-menuTitle: Introduction
-description: A quick introduction to external agents that can use Datatorch's API
-position: 500
-category: agents
+description: Agents used to run pipelines
+position: 501
+category: pipelines
 ---
-
-DataTorch offers a powerful execution environment runner for setting up
-pipelines and automating your machine learning lifecycle.
-
-Agents are used to execute custom tasks called pipelines. Pipelines are custom
-automated processes that you can set up in your projects to build, test,
-package, release, or deploy any code or machine learning model. They are made up
-of individual tasks, called actions, and combine together to create jobs.
 
 With Agents you can build custom end-to-end machine learning pipelines directly
 in your projects.
@@ -31,10 +22,10 @@ The configured agent machine connects to DataTorch API using the using the
 Python Library. The agent runner is open source, which means you can contribute
 and file issues in the repository.
 
-::: warning
-An agent is automatically removed from DataTorch if it has not connected for
-more than 30 days.
-:::
+<alert type="warning">
+   An agent is automatically removed from DataTorch if it has not connected for
+   more than 30 days.
+</alert>
 
 ### Installing Agent on a Machine
 
@@ -59,25 +50,23 @@ more than 30 days.
    datatorch login
    ```
 
-   ::: tip
-   If you are running a custom instance of DataTorch you will need to specific a
-   `--host` parameter. General, the value will be
-   `https://your-instance.com/api`.
-   :::
+   <alert>
+      If you are running a custom instance of DataTorch you will need to specific a
+      `--host` parameter. General, the value will be
+      `https://your-instance.com/api`.
+   </alert>
 
 3. **Create an agent.** Run the command below to create the agent.
 
-   ```sh
+   ```bash
    datatorch agent create
    ```
 
-4.
+4. **Run the agent.** Run the command below to start the agent.
 
-**Run the agent.** Run the command below to start the agent.
-
-```sh
-datatorch agent start
-```
+   ```bash
+   datatorch agent start
+   ```
 
 The agent will consume the terminal with logs and output information. You
 will now be able to view the agent in DataTorch. Exiting this terminal or

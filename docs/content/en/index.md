@@ -63,7 +63,7 @@ products:
     badgeText: Coming Soon
 
   - title: Monitoring
-    description: Monitor your models in production to detect performance and dift.
+    description: Monitor your models in production to detect performance and drift.
     badgeColor: blue
     badgeText: Coming Soon
 ---

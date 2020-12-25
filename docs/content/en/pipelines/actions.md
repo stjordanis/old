@@ -1,8 +1,8 @@
 ---
 title: Actions
 description: Information about actions that can be attached to pipelines.
-position: 501
-category: agents
+position: 502
+category: pipelines
 ---
 
 <!-- <HeaderCard /> -->
