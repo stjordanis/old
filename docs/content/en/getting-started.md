@@ -118,7 +118,23 @@ time to start annotating data!
 ### Using the Annotator
 
 Finally, we can start annotating. From the datasets tab, navigate to the dataset with
-your assigned files and select the first file.
+your assigned files and select the first file. When the annotator pops up, select the
+label you'd like to use.
+
+On the left hand side, you will have a variety of tools to annotate your data based on
+the data type. For example, images will have tools like drawing boxes, freeform polygons,
+or superpixel selection. These tools can be used to create multiple annotations for multiple
+labels or can be mixed and matched together for the same annotation if necessary.
+
+<figure>
+  <img src="/figures/getting-started/annotator-labels.png" max-width="450px">
+  <figcaption>Form for creating a label.</figcaption>
+</figure>
+
+Once you are finished annotating this file, use the previous or next buttons in the files pane
+of the annotator or click the next file directly.
+
+For more detailed information on the annotator, refer to the annotator documentation.
 
 ## Creating Exports
 
@@ -126,7 +142,16 @@ Exports allow you download your annotations in order to begin training your
 machine learning models. DataTorch allows you to specify exactly which
 properties of your dataset you would like to export.
 
-### Sharing your Project
+To export, navigate to the exports tab and define the parameters needed, such as
+which storage to save the export files, any filters to apply, and the target format of
+Coco or Datatorch.
+
+<figure>
+  <img src="/figures/getting-started/export.png" max-width="450px">
+  <figcaption>Form for defining an export.</figcaption>
+</figure>
+
+## Sharing your Project
 
 You can add users to your project using the Members tab.
 
@@ -138,3 +163,16 @@ You can add users to your project using the Members tab.
 Default classes are created for each of your projects. If you would like to
 learn more about creating custom roles, checkout [User
 Roles](/projects.html#user-roles).
+
+## Creating Jobs
+
+One of the uses of adding people to your project is in the creation of annotation
+jobs. Once users have signed up, navigating to the jobs tab of your project will
+allow you to specify the parameters of the job: which datasets to use, which members
+should annotate or review, and the number of passthroughs each file should have.
+
+## Conclusion
+
+With these tools, you should be equipped to run an annotation operation smoothly! If
+you are interested in advanced topics, try checking out our pages on our pipelines or
+on artifacts!
