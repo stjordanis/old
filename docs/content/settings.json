@@ -6,6 +6,5 @@
   "algolia": {
     "indexName": "datatorch",
     "apiKey": "50841ae57ba1849ebda7fd9772332dc7"
-  },
-  "twitter": "@datatorch_io"
+  }
 }
