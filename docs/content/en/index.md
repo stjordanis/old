@@ -73,4 +73,4 @@ products:
 Here you can access the complete documentation for DataTorch, the single
 application for the entire Machine Learning lifecycle.
 
-<products header="Explore by product" :products="products"></products>
+<!-- <products header="Explore by product" :products="products"></products> -->

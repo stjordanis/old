@@ -9,4 +9,4 @@ integrations: []
 
 Easily integrate with your existing tools.
 
-<products :products="integrations"></products>
+<!-- <products :products="integrations"></products> -->
