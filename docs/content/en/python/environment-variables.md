@@ -1,8 +1,8 @@
 ---
-title: "Environment Variables"
+title: 'Environment Variables'
 description: "Set your client's environment variables"
-position: 301
-category: "Python"
+position: 302
+category: Python / GQL
 ---
 
 Environment variables take precedence over local variables.

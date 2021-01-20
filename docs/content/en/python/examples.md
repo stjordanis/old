@@ -1,8 +1,8 @@
 ---
-title: "Examples"
-description: "Examples of python"
+title: 'Examples'
+description: 'Examples of python'
 position: 303
-category: "Python"
+category: Python / GQL
 ---
 
 ## Authentication

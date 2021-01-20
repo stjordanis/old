@@ -8,27 +8,34 @@ fullscreen: true
 products:
   - title: Annotator
     description: Annotate images, video, text, and more with a variety of annotation types.
+    path: annotator/introduction
 
   - title: Pipelines
     description: Powerful execution environment runner for automating your ML lifecycle.
+    path: pipelines/introduction
 
-  - title: Teams
+  - title: Organizations
     description: Organize and manage teams to work together and get results fast.
+    path: organizations/introduction
 
   - title: Datasets
     description: Annotate images, video, text, and more with a variety of annotation types.
+    path: annotator/datasets
 
   - title: CLI
     description: Command-line interface for quick access to common operations.
+    path: python/cli
 
   - title: Python API
-    description: Organize and manage teams to work together and get results fast.
+    description: Leverage the power of DataTorch with Python.
+    path: python/reference
 
   - title: GraphQL API
-    description: Organize and manage teams to work together and get results fast.
+    description: Use GQL queries to get the exact data you need.
 
   - title: Artifacts
     description: Version and visualize models, datasets, outputs and more.
+    path: artifacts/introduction
     badgeColor: green
     badgeText: Beta
 
@@ -68,9 +75,11 @@ products:
     badgeText: Coming Soon
 ---
 
-<strong>Lean why machine learning practitioners love us.</strong>
+<strong>Learn why machine learning practitioners love and use us.</strong>
 
 Here you can access the complete documentation for DataTorch, the single
-application for the entire Machine Learning lifecycle.
+application for the entire machine learning lifecycle.
 
-<!-- <products header="Explore by product" :products="products"></products> -->
+Check out our [getting started](/getting-started) page or browse our full collection of features below.
+
+<products header="Explore by product" :products="products"></products>

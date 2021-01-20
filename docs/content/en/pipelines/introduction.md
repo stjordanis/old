@@ -1,7 +1,7 @@
 ---
 title: Pipelines
 menuTitle: Introduction
-description: A quick introduction to external agents that can use Datatorch's API
+description: A quick introduction to external agents that can use DataTorch's API
 position: 500
 category: pipelines
 ---

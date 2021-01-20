@@ -1,7 +1,7 @@
 {
   "name": "@datatorch/docs",
   "version": "1.0.0",
-  "description": "Nuxt content version of Datatorch docs",
+  "description": "Nuxt content version of DataTorch docs",
   "main": "index.js",
   "private": true,
   "scripts": {

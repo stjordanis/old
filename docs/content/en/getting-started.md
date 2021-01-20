@@ -85,7 +85,7 @@ maximum of 50 files with a 50 MB size for each file.
 
 ### Assigning files to a dataset
 
-Now that your files can now be accessed by Datatorch, now we need to
+Now that your files can now be accessed by DataTorch, now we need to
 assign them to a dataset, which will help us organize our files
 and exports.
 
@@ -134,7 +134,7 @@ labels or can be mixed and matched together for the same annotation if necessary
 Once you are finished annotating this file, use the previous or next buttons in the files pane
 of the annotator or click the next file directly.
 
-For more detailed information on the annotator, refer to the annotator documentation.
+For more detailed information on the annotator, refer to the [annotator documentation](/annotator/introduction).
 
 ## Creating Exports
 
@@ -144,14 +144,18 @@ properties of your dataset you would like to export.
 
 To export, navigate to the exports tab and define the parameters needed, such as
 which storage to save the export files, any filters to apply, and the target format of
-Coco or Datatorch.
+Coco or DataTorch.
 
 <figure>
   <img src="/figures/getting-started/export.png" max-width="450px">
   <figcaption>Form for defining an export.</figcaption>
 </figure>
 
-## Sharing your Project
+Afterwards, your export should appear on the list of exports available to your project. All that's left
+is to run the export; it will automatically run and save the results to the target storage. You can also
+download the results from the completed export page.
+
+## Adding Members
 
 You can add users to your project using the Members tab.
 
@@ -170,6 +174,9 @@ One of the uses of adding people to your project is in the creation of annotatio
 jobs. Once users have signed up, navigating to the jobs tab of your project will
 allow you to specify the parameters of the job: which datasets to use, which members
 should annotate or review, and the number of passthroughs each file should have.
+
+Aftewards, the members invited to the job should be able to access their jobs through the jobs tab.
+Alternatively, you can share the direct link of the job page to said members.
 
 ## Conclusion
 

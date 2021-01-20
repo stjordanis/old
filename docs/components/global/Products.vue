@@ -8,12 +8,14 @@
       class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 my-5 mb-36"
     >
       <ProductCard
-        v-for="{ title, description, badgeText, badgeColor } in products"
+        v-for="{ title, description, badgeText, badgeColor, path } in products"
         :key="title"
+        :path="path"
       >
         <template #title>
           {{ title }}
         </template>
+        
         {{ description }}
         <div v-if="badgeText" class="mt-2">
           <ColorBadge :color="badgeColor">{{ badgeText }}</ColorBadge>
