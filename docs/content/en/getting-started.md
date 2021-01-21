@@ -128,7 +128,7 @@ labels or can be mixed and matched together for the same annotation if necessary
 
 <figure>
   <img src="/figures/getting-started/annotator-labels.png" max-width="450px">
-  <figcaption>Form for creating a label.</figcaption>
+  <figcaption>An annotataed image and the corresponding labels.</figcaption>
 </figure>
 
 Once you are finished annotating this file, use the previous or next buttons in the files pane
