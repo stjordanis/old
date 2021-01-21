@@ -1,0 +1,10 @@
+{
+  "title": "DataTorch Docs",
+  "url": "https://docs.datatorch.io/",
+  "logo": "favicon-40x40.png",
+  "github": "datatorch/datatorch",
+  "algolia": {
+    "indexName": "datatorch",
+    "apiKey": "50841ae57ba1849ebda7fd9772332dc7"
+  }
+}
