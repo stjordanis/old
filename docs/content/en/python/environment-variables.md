@@ -2,7 +2,7 @@
 title: 'Environment Variables'
 description: "Set your client's environment variables"
 position: 302
-category: Python / GQL
+category: Python
 ---
 
 Environment variables take precedence over local variables.

@@ -2,7 +2,7 @@
 title: Python Library
 menuTitle: Introduction
 description: Setup your python client through the command line
-category: Python / GQL
+category: Python
 position: 300
 features:
   - SDK for interacting with the DataTorch API.

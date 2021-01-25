@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="path" style="text-decoration: none;">
+  <ProductLink :path="path">
     <div
       class="shadow-xl border border-gray-300 dark:border-gray-800 rounded-lg p-2 py-4 text-center cursor-pointer"
     >
@@ -10,7 +10,7 @@
         <slot />
       </div>
     </div>
-  </NuxtLink>
+  </ProductLink>
 </template>
 
 <script>
