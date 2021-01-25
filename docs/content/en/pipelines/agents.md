@@ -41,7 +41,7 @@ and file issues in the repository.
    datatorch --help
    ```
 
-   Checkout the [Python SDK/CLI section](/python) for more information.
+   Checkout the [Python SDK/CLI section](/python/introduction) for more information.
 
 2. **Login to the CLI tool.** Run the command below to login and link your
    account to your machine.

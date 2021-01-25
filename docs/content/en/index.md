@@ -32,6 +32,7 @@ products:
 
   - title: GraphQL API
     description: Use GQL queries to get the exact data you need.
+    path: python/gql
 
   - title: Artifacts
     description: Version and visualize models, datasets, outputs and more.
