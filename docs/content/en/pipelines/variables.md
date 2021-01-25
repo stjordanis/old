@@ -15,10 +15,6 @@ references, and functions using operators.
 Contexts are a way to access information about workflow runs, runner
 environments, jobs, and steps. Contexts use the following syntax.
 
-::: v-pre
-`${{ <context> }}`
-:::
-
 | Variable               |  Type  | Description                                                                                                            |
 | ---------------------- | :----: | ---------------------------------------------------------------------------------------------------------------------- |
 | agent                  | object | Information about the agent.                                                                                           |
