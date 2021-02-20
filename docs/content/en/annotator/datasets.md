@@ -1,11 +1,11 @@
 ---
 title: Datasets
-description: "Create your projects"
+description: 'Create your projects'
 position: 103
 category: annotator
 ---
 
-<img src="intro.png" width="42%" class="center" />
+<img src="/intro.png" width="42%" class="center" />
 
 Projects are the top level of a machine-learning project. It contains datasets,
 storage providers, annotations and workspaces. These subsections are describe in

@@ -1,7 +1,7 @@
 ---
 title: Command-line Interface
 description: Setup your python client through the command line
-category: Python / GQL
+category: Python
 position: 301
 ---
 

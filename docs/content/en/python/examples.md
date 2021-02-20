@@ -2,7 +2,7 @@
 title: 'Examples'
 description: 'Examples of python'
 position: 303
-category: Python / GQL
+category: Python
 ---
 
 ## Authentication

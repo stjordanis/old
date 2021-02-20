@@ -7,11 +7,6 @@ category: ''
 
 ## Getting Started
 
-## Annotation
+You can find our quickstart [here](/getting-started).
 
-- COCO Segmentation
-- COCO Keypoints
-
-## Artifacts
-
-- Model Versioning
+Alternatively, you can find a more robust example on data collection and membership [here](https://medium.com/datatorch/how-to-create-a-custom-coco-dataset-from-scratch-7cd28f0a2c88).
